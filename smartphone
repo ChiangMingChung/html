@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水電估價系統</title>
+    <style>
+        /* 在這裡添加你的CSS樣式 */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的網站</h1>
+    </header>
+    <main>
+        <section>
+            <h2>關於我們</h2>
+            <p>這是一個簡單的示範網站，展示如何使用 HTML 和 CSS 來構建網頁介面。</p>
+        </section>
+        <section>
+            <h2>聯繫我們</h2>
+            <button>點擊這裡聯繫我們</button>
+        </section>
+    </main>
+    <footer>
+        <p>版權所有 © 2024</p>
+    </footer>
+</body>
+</html>
