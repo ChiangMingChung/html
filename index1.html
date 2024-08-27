@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水電估價系統</title>
+    <style>
+        .more-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>你的預算、維修內容</h2>
+    <p>讓我們能夠清晰了解到你的需求，並且在預算內達成最大的益效</p>
+
+    <a href="javascript:void(0);" id="more-link">點擊查看更多內容</a>
+    
+    <div class="more-content" id="more-content">
+        <p>這是更多的詳細內容。當用戶點擊上方的連結時，這些內容會顯示出來。</p>
+    </div>
+
+    <script>
+        document.getElementById("more-link").onclick = function() {
+            var content = document.getElementById("more-content");
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                this.innerText = "點擊隱藏內容";
+            } else {
+                content.style.display = "none";
+                this.innerText = "點擊查看更多內容";
+            }
+        };
+    </script>
+</body>
+</html>

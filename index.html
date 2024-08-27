@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>居家水電維修</title>
+    <style>
+        /* 样式定义 */
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f0f0; 
+        }
+        header { 
+            background-color: #333; 
+            color: white; 
+            padding: 10px 0; 
+            text-align: center; 
+        }
+        nav { 
+            background-color: #444; 
+            padding: 10px; 
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        main { 
+            padding: 20px; 
+        }
+        .content { 
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto 20px; 
+        }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            padding: 10px 0; 
+            text-align: center; 
+            margin-top: 20px; 
+        }
+        a { 
+            color: #0066cc; 
+            text-decoration: none; 
+        }
+        a:hover { 
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>居家水電維修</h1>
+    </header>
+    
+    <!-- 导航栏 -->
+    <nav>
+        <a href="#home">主頁</a>
+        <a href="#about">維修方式</a>
+        <a href="#contact">成品3D圖</a>
+    </nav>
+    
+    <!-- 主要内容 -->
+    <main>
+        <section class="content">
+            <h2 id="home">居家水電維修</h2>
+            <p>歡迎來到居家水電維修線上系統，在這邊說你的預算、風格、維修項目，說完我們會以3D圖方式逞現出來。</p>
+            <img src="https://via.placeholder.com/800x400" alt="Example Image">
+            <h2 id="about">輸入預算、風格、維修內容</h2>
+            <p>讓我們能夠清晰了解到你的需求，並且在預算內達成最大的益效</p>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter a number">
+
+            
+            <h2 id="contact">3D圖呈現</h2>
+            <p>If you want to get in touch, feel free to 
+                <a href="https://www.example.com" target="_blank" 
+                   onclick="return confirm('Are you sure you want to visit this site?')">
+                   visit my other site
+                </a>.
+            </p>
+        </section>
+    </main>
+    
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 My Awesome Website</p>
+    </footer>
+</body>
+</html>
